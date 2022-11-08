@@ -25,5 +25,16 @@
             string[] words = sentence.Split(' ');
             return words[words.Length - 1];
         }
+
+        /// <summary>
+        /// Binary search method implemented
+        /// </summary>
+        void BinarySearch()
+        {
+            // Let me correct the business logic here - fixed
+            int[] numbers = new int[] { 3, 5, 7, 1, 2 };
+            Array.Sort(numbers);
+            int index = Array.BinarySearch(numbers, 5);
+        }
     }
 }
